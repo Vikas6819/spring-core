@@ -5,6 +5,11 @@ public class Employee {
 	private int id;
 	private String name;
 	
+	public Employee() {
+		
+		System.out.println("Emp Constructor invoked...");
+	}
+	
 	public int getId() {
 		return id;
 	}
